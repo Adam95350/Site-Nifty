@@ -1,0 +1,68 @@
+body{
+    background-color: #fff;
+}
+
+.btnPopup{
+    background-color: rgb(255, 255, 255);
+    padding: 1em 2em;
+    margin-left: 50%;
+    margin-right: auto;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnPopup:hover{
+    background-color: rgb(0, 255, 255);
+}
+
+/* TOP TO THE BOTTOM ANIMATION  */
+
+.popupBase{
+    position: absolute;
+    top: 0;
+    height: 0%;
+    width: 35%;
+    text-align: center;
+    background-color: transparent;
+    color: transparent;
+
+    transition: 2s;
+}
+
+.popup{
+    position: absolute;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: #fff;
+    padding-top: 10%;
+    height: 100%;
+    width: 35%;
+    transition: 2s;
+}
+
+/* LEFT TO RIGHT ANIMATION  */
+/* .popupBase{
+    position: absolute;
+    top: 0;
+    left: -300px;
+    height: 100%;
+    width: 50%;
+    padding-top: 50%;
+    text-align: center;
+    background-color: transparent;
+    color: transparent;
+    transition: 2s;
+}
+
+.popup{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.493);
+    text-align: center;
+    left: 0px;
+    padding-top: 50%;
+    height: 100%;
+    width: 50%;
+    transition: 2s;
+} */

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style1.css">
+        <title>HEADER</title>
+    </head>
+
+    <body>
+        <div id="popup" class="popupBase" style="display: none;">
+            <h2>
+                <a>Menu</a>
+            </h2>
+            <div>
+                <ul>
+                    <li><a href="#1">À propos</a></li>
+                    <li><a href="#2">Nous trouver</a></li>
+                    <li><a href="#3">Nos produits</a></li>
+                    <li><a href="#4" id="bouttonMobile">Notre offre</a></li>
+                    <li><a href="#4" id="proMobile">Professionnel</a></li>
+                </ul>
+            </div>
+        </div> 
+        <header class="main-head">
+            
+            <nav>
+                <div id="header_container">
+                    <div id="header_logo">
+                        <a href="#" id="logo"><img src="https://cdn.vivlab.com/1616178540236-logo-detoure.jpg"/></a>
+                    </div>
+                    <div id="header_body">
+                        <ul>
+                            <li>  <a href="#1">À propos</a> </svg> </li>
+                            <li><a href="#2">Nous trouver</a></li>
+                            <li><a href="#3">Nos produits</a></li>
+                            <li><a href="#4" id="boutton">Notre offre</a></li>
+                            <li>  <a href="#4" id="pro">Professionnel</a> </svg> </li>
+                        </ul>
+                    </div>
+                    
+                    
+                </div>
+                <div id="menu_burger" class="menu_Burger_base">
+                    <span id="menu_burger_span"></span>
+                </div>
+            </nav>
+
+        </header>
+        <main>
+            <div class="main" style="margin-left: 30px; margin-right: 30px; color: #073F8A;">
+                
+                <div id="0">
+                    <div id="mainMenu">
+                        <div id="mainMenu_Body">
+                            <div id="mainMenu_text">
+                                <div class="main_test">
+                                    <h1>Tout ce qu'il vous faut à portée de main</h1>
+                                    <p>Nifty, c’est le service de distribution automatique de produits d’hygiène et de beauté ! La fraîcheur est au rendez-vous …</p>
+                                </div>
+                            </div>
+                            <div id="mainMenu_button">
+                                <!-- <a id="left" href="#1"><div id="container_left">Découvrir</div></a> -->
+                                <button id="buttonDiscover" onclick="window.location.href='#1'">Nous trouver</button>
+                                <!-- <div id="container_right"><a id="right" href="#1">Nous trouver</a></div> -->
+                                <button id="buttonFind" onclick="window.location.href='#1'">Nous trouver</button>
+                            </div>
+                        </div>
+                        <div id="mainMenu_img">
+                            <img src="https://lecasierfrancais.fr/wp-content/uploads/2019/11/zoom-case-3.jpg"/>
+                        </div>
+                    </div>      
+
+                </div>
+
+                <div id="propos">
+                    <?php require "apropos.php"?>
+                </div> 
+
+                <div id="1" style="margin-top: 150px; margin-bottom: 150px;">
+                    <div id="carousel">
+                        <?php require "carousel.php" ?>
+                    </div>
+                </div>
+                <div id="engagement" style="margin-top: 150px; margin-bottom: 150px; color:#073F8A;">
+                    <h1>Nos engagements</h1>
+                    <div style="margin-top: 15px; display: flex; justify-content: space-around;">
+                        <div class="card_container">
+                            <div class="card_img">
+                                <img src=""/>
+                            </div>
+                            <div class="card_body">
+                                <div class="card_title">
+                                    <p>Des produits tendances</p>
+                                </div>
+                                <div class="card_text">
+                                    <p>Une offre dynamique avec des nouveautés présentées régulièrement, des offres exclusives, et des marques de renommée telles que Labello, Merci Handy et autres…</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_container">
+                            <div class="card_img">
+                                <img src=""/>
+                            </div>
+                            <div class="card_body">
+                                <div class="card_title">
+                                    <p>Des prix accessibles</p>
+                                </div>
+                                <div class="card_text">
+                                    <p>Le prix de nos produits n’excède jamais celui proposé en grande distribution, de façon à vous garantir un maximum d’accessibilité, sans entamer votre portefeuille !</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_container">
+                            <div class="card_img">
+                                <img src=""/>
+                            </div>
+                            <div class="card_body">
+                                <div class="card_title">
+                                    <p>Une démarche éco-responsable</p>
+                                </div>
+                                <div class="card_text">
+                                    <p>50% de nos produits sont déjà eco-responsables suite à vos retours, disponibles dans nos distributeurs à basse consommation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="myJqueryScript.js"></script>
+        <script src="menuberuger.js"></script>
+        <script src="Carousel.js"></script>
+    </body>
+</html>

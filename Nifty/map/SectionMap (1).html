@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Section Map</title>
+  <link rel="stylesheet" href="SectionMap.css">
+</head>
+<body>
+    <div id="map" style="height: 100%; width: 100%;">
+        <iframe id="map"src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20944.85655124466!2d2.2314475!3d48.98951984999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1642263680892!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+        <div class="box">
+        <p id="Trouver">Trouvez un distributeur</p>
+            <label for="name">Ou allez-vous ? </label>
+            <input  type="text" id="CodePostal" name="name" placeholder=" Code postal "> 
+            <input id="buttonDiscover" type="button" value="Rechercher">
+        </div>
+
+    </div>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAU83c9wT9toYQs22rUswgN5zp_aabVXY4&callback=initMap">
+    </script>
+</body>
+</html>

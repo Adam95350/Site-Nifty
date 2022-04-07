@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75.834" height="93.543" viewBox="0 0 75.834 93.543">
+  <g id="Icone_Euro_2" data-name="Icone Euro 2" transform="translate(-921.937 -1814.457)">
+    <path id="Ellipse_15" data-name="Ellipse 15" d="M33,5A28.009,28.009,0,0,0,22.1,58.8,28.009,28.009,0,0,0,43.9,7.2,27.82,27.82,0,0,0,33,5m0-5A33,33,0,1,1,0,33,33,33,0,0,1,33,0Z" transform="translate(927 1842)" fill="#6681af"/>
+    <path id="Ellipse_16" data-name="Ellipse 16" d="M25,4A21,21,0,0,0,10.151,39.849a21,21,0,1,0,29.7-29.7A20.862,20.862,0,0,0,25,4m0-4A25,25,0,1,1,0,25,25,25,0,0,1,25,0Z" transform="translate(935 1850)" fill="#6681af"/>
+    <text id="_" data-name="€" transform="translate(939 1850)" fill="#5e82b3" font-size="40" font-family="Avenir-Heavy, Avenir" font-weight="800"><tspan x="-12.2" y="40">€</tspan></text>
+    <rect id="Rectangle_79" data-name="Rectangle 79" width="5" height="16.921" rx="2.5" transform="translate(921.937 1831.151) rotate(-31)" fill="#5e82b3"/>
+    <rect id="Rectangle_80" data-name="Rectangle 80" width="5" height="17.814" rx="2.5" transform="translate(993.441 1828.214) rotate(30)" fill="#5e82b3"/>
+    <rect id="Rectangle_81" data-name="Rectangle 81" width="5" height="23.109" rx="2.5" transform="translate(957.875 1814.457)" fill="#5e82b3"/>
+  </g>
+</svg>

@@ -1,0 +1,147 @@
+body{
+    margin-top: 15%;
+}
+
+.card_container{
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 24px #00000029;
+    width: 267px;
+    height: 305px;
+    transition: transform 0.3s;
+}
+
+.card_img{
+text-align: center;
+}
+
+.card_img img{
+    max-width: 168px;
+    max-height: 197px;
+}
+
+.card_body{
+    margin-left: 20px;
+}
+
+.card_title{
+    
+    font: normal normal bold 22px/27px HK Grotesk;
+    color: #003588;
+    margin-bottom: -15px;
+}
+
+.card_text{
+    font: normal normal medium 22px/27px HK Grotesk;
+    color: #6585B7;
+}
+
+.card_price{
+    font: normal normal bold 22px/27px HK Grotesk;
+    color: #003588;
+}
+
+.card_container:hover{
+    transform: translateY(-20px);
+}
+
+/* CAROUSEL */
+.carousel{
+    position: relative;
+}
+
+.carousel_item{
+    float: left;
+    /* max-width: 300px; */
+}
+
+.carousel_container{
+    transition: transform 0.3s;
+    transform: translate(0,0,0);
+}
+
+.carousel_container::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.carousel_next, .carousel_prev{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #fff url(right.svg) center center no-repeat;
+    background-size: 20px 20px;
+    border-radius: 50%;
+    top: 50%;
+    margin-top: 0px;
+    right: 0px;
+    box-shadow: 0 15px 35px #3232321a, 0 5px 15px #0000001a;
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.carousel_next:hover, .carousel_prev:hover{
+    transform: scale(1.2);
+}
+
+.carousel_prev{
+    background-image: url(left.svg);
+    right: auto;
+    left: 20px;
+}
+
+.carousel_prev--hidden{
+    opacity: 0;
+    cursor:default;
+}
+
+.carousel_next--hidden{
+    opacity: 0;
+    cursor:default;
+}
+
+.carousel_pagination{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    display: none;
+}
+
+.carousel_pagination_button{
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 2x 5px #3232321a;
+    transition: transform 0.3;
+    cursor: pointer;
+    margin-right: 5px;
+    opacity: 100;
+}
+
+.carousel_pagination_button--active, .carousel_pagination_button:hover{
+    transform: scale(1.4);
+}
+
+.carousel_pagination_button--hidden{
+    opacity: 0;
+}
+
+@media screen and (min-width: 1100px){
+    .carousel_pagination{
+        display: block;
+        
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .card_container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}

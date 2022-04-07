@@ -1,0 +1,104 @@
+
+
+
+.box {
+position: relative;
+top: -800px;
+left:70%;
+
+width: 350px;
+height: 340px;
+background: var(--plein-white) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 24px #00000029;
+border-radius: 25px;
+opacity: 1;
+
+}
+
+
+.box label{
+position: relative;
+top: 10px; /*A changer (pas les valeurs par défaut)*/
+left: 30px; /*A changer (pas les valeurs par défaut)*/
+width: 227px;
+height: 27px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-22)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-hk-grotesk);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--nifty-primary-blue);
+text-align: left;
+font: normal normal medium 22px/27px HK Grotesk;
+letter-spacing: 0px;
+color: #073F8A;
+opacity: 1;
+
+}
+
+#Trouver{
+    position: relative;
+    align-items: center;
+    top: 35px; /*A changer (pas les valeurs par défaut)*/
+    left: 30px ; /*A changer (pas les valeurs par défaut)*/
+    width: 332px;
+    height: 39px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-32)/var(--unnamed-line-spacing-39) var(--unnamed-font-family-hk-grotesk);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--nifty-primary-blue);
+    text-align: left;
+    font: normal normal bold 25px/25px HK Grotesk;
+    letter-spacing: 0px;
+    color: #073F8A;
+    opacity: 1;
+
+}
+
+.box input {
+margin-top: 30px;
+margin-left: 21px;    
+width: 300px;
+height: 50px;
+background: var(--plein-white) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #6681AF;
+border-radius: 9px;
+opacity: 1;
+
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-22)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-hk-grotesk);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--nifty-primary-blue);
+text-align: left;
+font: normal normal medium 22px/27px HK Grotesk;
+letter-spacing: 0px;
+color: #073F8A;
+}
+
+
+#CodePostal::placeholder
+{
+    color: #073F8A;
+}
+
+.box #buttonDiscover:hover{
+    background: #bb8fca 0% 0% no-repeat padding-box;
+}
+
+.box #buttonDiscover{
+    
+    top: 3088px;     /* Remettre valeur du css de maquette*/
+    left: 6592px ;     /* Remettre valeur du css de maquette*/
+    width: 150px; /* Remettre valeur du css de maquette*/
+    height: 50px; /* Remettre valeur du css de maquette*/
+    margin-left: 100px;
+    margin-top: 60px;
+    background: var(--nifty-accent-lilas) 0% 0% no-repeat padding-box;
+    background: #9666A8 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 16px #9666A866;
+    border-radius: 35px;
+    opacity: 1;
+    color: white;
+    text-align: center;
+    border:#9666A8;
+    
+}
+ 
+
